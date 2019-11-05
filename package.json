@@ -1,0 +1,19 @@
+{
+  "name": "temp",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha --recursive --timeout 100000 main.js",
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "chromedriver": "^77.0.0",
+    "dotenv": "^8.1.0",
+    "mocha": "^6.2.1",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  }
+}
